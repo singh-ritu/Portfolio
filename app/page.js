@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Skills } from "./components/Skills";
 import { Intro } from "./components/Intro";
 import { Projects } from "./components/Projects";
+import { Experience } from "./components/Experience";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
           <About />
           <Skills />
           <Projects />
+          <Experience />
         </div>
       </main>
     </div >
