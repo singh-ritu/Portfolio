@@ -53,7 +53,7 @@ export const Projects = () => {
                   <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
                   <div className="mt-4">
                     {project.techStack.map((tech) => (
-                      <span key={tech} className="inline-block bg-pink-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2">
+                      <span key={tech} className="inline-block bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2">
                         {tech}
                       </span>
                     ))}

@@ -30,17 +30,17 @@ export const Experience = () => {
           {experiences.map((experience) => {
 
             return (
-              <Card key={experience.title} className="shadow-md border border-pink-200 hover:border-pink-300">
+              <Card key={experience.title} className="shadow-md border border-cyan-200 hover:border-cyan-300">
                 <CardContent className="pt-6">
-                  <div className="mb-4 inline-flex items-center justify-center px-4 py-2 rounded-lg bg-pink-100">
-                    <h3 className="text-sm font-semibold text-gray-600">{experience.company}</h3>
+                  <div className="mb-4 inline-flex items-center justify-center px-4 py-2 rounded-lg bg-gray-100">
+                    <h3 className="text-sm font-semibold text-cyan-600">{experience.company}</h3>
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-600">{experience.title}</h3>
-                  <span className="inline-block bg-pink-100 font-semibold border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2">{experience.duration}</span>
+                  <span className="inline-block bg-gray-100 font-semibold border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2">{experience.duration}</span>
                   <p className="text-gray-500 text-sm font-medium leading-relaxed">{experience.description}</p>
                   <div className="mt-4">
                     {experience.techStack.map((tech) => (
-                      <span key={tech} className="inline-block border border-gray-200 text-gray-600 hover:border-pink-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">
+                      <span key={tech} className="inline-block border border-gray-200 text-gray-600 hover:border-cyan-200 hover:text-cyan-500 text-xs px-2 py-1 rounded-full mr-2 mb-2">
                         {tech}
                       </span>
                     ))}

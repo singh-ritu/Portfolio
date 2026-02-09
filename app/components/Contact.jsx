@@ -11,15 +11,15 @@ export const Contact = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <Card className="shadow-md border border-cyan-200  px-20">
+          <Card className="shadow-md border border-pink-200  px-20">
             <CardContent className="pt-6">
               <div className="mb-4 inline-flex items-center justify-center px-4 py-2 rounded-lg">
                 <h3 className="text-md font-md text-gray-600">I'm open to collaborating on interesting projects. Feel free to reach out!</h3>
               </div>
               <div className="flex items-center justify-center gap-4 my-6">
-                <Button variant="secondary">Email</Button>
-                <Button variant="secondary">LinkedIn</Button>
-                <Button variant="secondary">Download Resume</Button>
+                <Button variant="primary">Email</Button>
+                <Button variant="primary">LinkedIn</Button>
+                <Button variant="primary">Download Resume</Button>
               </div>
             </CardContent>
           </Card>
