@@ -30,7 +30,7 @@ export const About = () => {
       <div className="container mx-auto px-4 cursor-pointer">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-gray-600">Behind the code...</h2>
-          <p className="text-gray-500 text-md mx-auto text-pretty bg-pink-100 border border-pink-400 rounded-lg p-6 ">
+          <p className="text-gray-500 text-md mx-auto text-pretty bg-pink-100 border border-pink-400 shadow-md rounded-lg p-6 ">
             Hey there! I'm Ritu Singh, and my journey into frontend development began with a simple question:
             "How does the web actually work?" That curiosity sparked a passion that's now become my craft. Over the past year,
             I've honed my skills in React, Next.js, and Tailwind CSS, specializing in building web applications that are not just functional, but beautiful, performant, and accessible.

@@ -1,10 +1,10 @@
-import react from "react"
+
 import Link from "next/link"
-import { Code, Sparkles, Code2 } from "lucide-react"
+import { Code2 } from "lucide-react"
 import { useRouter } from "next/navigation";
 import Button from "../Button";
 
-const Header = () => {
+export const Header = () => {
   const router = useRouter();
   return (
     <header className="sticky top-0 z-50 w-full border-b-gray-700 bg-white shadow-sm cursor-pointer">
@@ -37,4 +37,3 @@ const Header = () => {
     </header>
   )
 }
-export default Header;

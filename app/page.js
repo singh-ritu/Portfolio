@@ -1,17 +1,19 @@
 "use client"
 import { About } from "./components/About";
-import Headers from "./components/Header";
+import { Header } from "./components/Header";
+import { Skills } from "./components/Skills";
 import { Intro } from "./components/Intro";
 
 export default function Home() {
 
   return (
     <div className="min-h-screen content-box">
-      <Headers />
+      <Header />
       <main>
         <div className="min-h-scre">
           <Intro />
           <About />
+          <Skills />
         </div>
       </main>
     </div >
