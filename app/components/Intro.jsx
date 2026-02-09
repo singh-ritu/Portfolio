@@ -5,7 +5,7 @@ export const Intro = () => {
     <section className="py-20 ">
       <div className="container mx-auto px-4">
         <div className="mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 text-gray-600">
             Hi, I'm <span className="text-pink-400">Ritu Singh</span>
           </h1>
           <p className="text-md md:text-xl text-gray-500 text-pretty max-w-xl mx-auto mb-8">
