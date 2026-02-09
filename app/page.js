@@ -14,13 +14,23 @@ export default function Home() {
     <div className="min-h-screen content-box">
       <Header />
       <main>
-        <div className="min-h-scre">
+        <div className="min-h-screen">
           <Intro />
-          <About />
-          <Skills />
-          <Projects />
-          <Experience />
-          <Contact />
+          <div id="about">
+            <About />
+          </div>
+          <div id="skills">
+            <Skills />
+          </div>
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="experience">
+            <Experience />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
         </div>
       </main>
       <Footer />

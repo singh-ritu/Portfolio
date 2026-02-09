@@ -1,5 +1,6 @@
 
-import Button from "../Button";
+import Link from "next/link";
+import Button from "../ui/Button";
 export const Intro = () => {
   return (
     <section className="py-20 ">
@@ -12,8 +13,12 @@ export const Intro = () => {
             Frontend Developer with 1 year of hands-on experience building responsive, accessible web apps. I focus on clean code, performance, and delightful user experiences.
           </p>
           <div className="flex gap-5 items-center justify-center mt-30">
-            <Button size="lg">View Projects</Button>
-            <Button size="lg" variant="outline">Contact</Button>
+            <Link href="/#projects">
+              <Button size="lg">View Projects</Button>
+            </Link>
+            <Link href="/#contact">
+              <Button size="lg" variant="outline">Contact</Button>
+            </Link>
           </div>
           <div className="flex gap-3 items-center justify-center mt-10 text-sm text-gray-500 cursor-pointer">
             <span className="border border-gray-200 shadow-md px-6 py-2 rounded-full hover:text-pink-400 hover:border-pink-400">React</span>

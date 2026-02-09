@@ -33,14 +33,18 @@ export const Projects = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-gray-600">Selected Projects</h2>
-          <p className="text-gray-500 text-md mx-auto text-pretty">Explore a collection of web applications I've built using React, Next.js, and modern tools
+          <p className="text-gray-500 text-md mx-auto text-pretty">
+            Explore a collection of web applications I've built using React, Next.js, and modern tools
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => {
 
             return (
-              <Card key={project.title} className="shadow-md border border-gray-200 hover:bg-pink-100 transition duration-300">
+              <Card key={project.title}
+                className="shadow-md border border-gray-200 hover:bg-pink-100 transition duration-300 cursor-pointer"
+                onClick={() => window.open(project.githubLink)}
+              >
                 <CardContent className="pt-6">
                   <div className="mb-4 inline-flex items-center justify-center w-full rounded-lg bg-[#e9edf7]">
                     <Image
@@ -53,13 +57,15 @@ export const Projects = () => {
                   <p className="text-gray-500 text-sm leading-relaxed">{project.description}</p>
                   <div className="mt-4">
                     {project.techStack.map((tech) => (
-                      <span key={tech} className="inline-block bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2">
+                      <span
+                        key={tech}
+                        className="inline-block bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full mr-2 mb-2"
+                      >
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <Link href={project.githubLink} className="inline-flex items-center justify-center text-sm font-medium text-pink-500 hover:text-pink-500 mt-4">
-                  </Link>
+                  <Link className="inline-flex items-center justify-center text-sm font-medium text-pink-500 hover:text-pink-500 mt-4" />
                 </CardContent>
               </Card>
             )
