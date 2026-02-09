@@ -1,5 +1,5 @@
 
-import Button from "./Button";
+import Button from "../Button";
 export const Intro = () => {
   return (
     <section className="py-20 ">
@@ -11,7 +11,7 @@ export const Intro = () => {
           <p className="text-md md:text-xl text-gray-500 text-pretty max-w-xl mx-auto mb-8">
             Frontend Developer with 1 year of hands-on experience building responsive, accessible web apps. I focus on clean code, performance, and delightful user experiences.
           </p>
-          <div className="flex gap-5 items-center justify-center">
+          <div className="flex gap-5 items-center justify-center mt-30">
             <Button size="lg">View Projects</Button>
             <Button size="lg" variant="outline">Contact</Button>
           </div>

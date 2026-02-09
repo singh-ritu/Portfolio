@@ -1,4 +1,5 @@
 "use client"
+import { About } from "./components/About";
 import Headers from "./components/Header";
 import { Intro } from "./components/Intro";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <div className="min-h-scre">
           <Intro />
+          <About />
         </div>
       </main>
     </div >

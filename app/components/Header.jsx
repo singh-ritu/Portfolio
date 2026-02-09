@@ -2,7 +2,7 @@ import react from "react"
 import Link from "next/link"
 import { Code, Sparkles, Code2 } from "lucide-react"
 import { useRouter } from "next/navigation";
-import Button from "./Button";
+import Button from "../Button";
 
 const Header = () => {
   const router = useRouter();
