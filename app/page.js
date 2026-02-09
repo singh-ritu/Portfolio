@@ -6,6 +6,7 @@ import { Intro } from "./components/Intro";
 import { Projects } from "./components/Projects";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
           <Contact />
         </div>
       </main>
+      <Footer />
     </div >
   );
 }
