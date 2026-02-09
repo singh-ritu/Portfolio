@@ -14,7 +14,7 @@ const Button = ({
 
   const variants = {
     primary: "bg-pink-500 text-white hover:bg-pink-400 focus:ring-pink-500",
-    secondary: "bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500",
+    secondary: "bg-cyan-500 text-white hover:bg-cyan-400 focus:ring-cyan-500",
     outline: "bg-transparent border border-gray-200 shadow-md text-gray-600 hover:bg-pink-50 focus:ring-gray-500",
   }
   const sizes = {
